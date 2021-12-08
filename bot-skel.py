@@ -13,6 +13,10 @@ from discord.channel import VoiceChannel       # dumb random number generator
 
 from discord.ext import commands    # Bot class and utils
 
+import argparse
+parser = argparse.ArgumentParser()
+parser.parse_args()
+
 ################################################################################
 ############################### HELPER FUNCTIONS ###############################
 ################################################################################
